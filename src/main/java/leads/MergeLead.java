@@ -20,7 +20,7 @@ public class MergeLead extends SeMethods{
 		click(eleLogin);
 		WebElement eleCRMSFA = locateElement("linktext","CRM/SFA");
 		click(eleCRMSFA);
-		WebElement elecreatelead = locateElement("linktext","Create Lead");
+		WebElement elecreatelead = locateElement("linktext","Create Lead1");//changed by anitha
 		click(elecreatelead);
 		WebElement eleMergeLead = locateElement("xpath","//a[text()='Merge Leads']");
 		click(eleMergeLead);
