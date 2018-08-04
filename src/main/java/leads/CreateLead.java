@@ -14,7 +14,7 @@ public class CreateLead extends Annotations{
 		WebElement elecreatelead = locateElement("linktext","Create Lead");
 		click(elecreatelead);
 		WebElement eleCompanyName = locateElement("createLeadForm_companyName");
-		type(eleCompanyName, "Infosys");
+		type(eleCompanyName, "Accenture");//changed by anitha
 		WebElement eleFName = locateElement("createLeadForm_firstName");
 		type(eleFName, "Manoja");
 		WebElement eleLName = locateElement("createLeadForm_lastName");
