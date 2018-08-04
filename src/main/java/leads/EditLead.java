@@ -16,7 +16,7 @@ public class EditLead extends Annotations{
 		WebElement eleCompanyName = locateElement("createLeadForm_companyName");
 		type(eleCompanyName, "Accenture");//changed by anitha
 		WebElement eleFName = locateElement("createLeadForm_firstName");
-		type(eleFName, "Manoja");
+		type(eleFName, "Manoja01");//changed by Manoja
 		WebElement eleLName = locateElement("createLeadForm_lastName");
 		type(eleLName, "Rajan");
 		WebElement eleIndustry = locateElement("createLeadForm_industryEnumId");
