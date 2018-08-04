@@ -24,8 +24,8 @@ public class MergeLead extends SeMethods{
 		click(elecreatelead);
 		WebElement eleMergeLead = locateElement("xpath","//a[text()='Merge Leads']");
 		click(eleMergeLead);
-		WebElement eleIcon = locateElement("xpath", "//div[@class='subSectionBlock']//following::a/img");
-		click(eleIcon);
+		WebElement eleIcon1 = locateElement("xpath", "//div[@class='subSectionBlock']//following::a/img");
+		click(eleIcon1);//changed by Manoja.Changed the Element Name.
 		switchToWindow(1);
 		maximize();
 		WebElement eleLeadId = locateElement("xpath", "//div/input[@name='id']");
