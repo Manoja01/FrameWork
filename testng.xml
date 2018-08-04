@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sequential" parallel="classes">
+  <test name="Sequential.Login"  >
+    <classes>
+      <class name="testcase.Login"/>
+      <class name="testcase.testcase_homework"/>
+    </classes>
+  </test> <!-- Sequential.Login -->
+</suite> <!-- Sequential -->
