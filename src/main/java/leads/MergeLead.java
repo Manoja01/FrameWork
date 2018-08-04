@@ -29,7 +29,7 @@ public class MergeLead extends SeMethods{
 		switchToWindow(1);
 		maximize();
 		WebElement eleLeadId = locateElement("xpath", "//div/input[@name='id']");
-		type(eleLeadId, "10088");		
+		type(eleLeadId, "10089");	//changed by Manoja from 88 to 89.	
 		WebElement eleFindLead = locateElement("xpath","//button[text()='Find Leads']");
 		click(eleFindLead);
 		Thread.sleep(5000);
